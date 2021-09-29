@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="104.76994mm"
+   height="104.31441mm"
+   viewBox="0 0 104.76994 104.31441"
+   version="1.1"
+   id="svg842"
+   sodipodi:docname="logo js.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.54342031"
+     inkscape:cx="194.1407"
+     inkscape:cy="367.11914"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg842" />
+  <defs
+     id="defs839" />
+  <g
+     id="layer1"
+     transform="translate(-53.523769,-51.701693)">
+    <g
+       id="layer1-5"
+       transform="translate(-5.0107383,-44.868841)">
+      <ellipse
+         style="fill:#032354;fill-opacity:1;stroke-width:0.225787"
+         id="path31"
+         cx="110.91948"
+         cy="148.72774"
+         rx="52.384972"
+         ry="52.157204" />
+      <g
+         id="g1039"
+         transform="matrix(0.25572707,0,0,0.26132604,-219.51153,-98.637764)">
+        <g
+           id="Logo_artwork" />
+        <g
+           id="Guides_to_delete"
+           transform="translate(7.1251193,-21.912823)">
+          <g
+             id="g1021"
+             transform="matrix(0.15384686,0,0,0.15572847,1140.5133,794.08555)">
+            <polygon
+               fill="#e34e26"
+               points="208.627,101.984 1791.373,101.984 1647.093,1718.528 999.615,1898.016 352.732,1718.4 "
+               id="polygon1009"
+               style="fill:#ececec"
+               transform="matrix(1.0194367,0,0,1.0902145,-75.880162,95.845832)" />
+            <polygon
+               fill="#ef662a"
+               points="1000,234.108 1000,1760.716 1523.565,1615.585 1646.918,234.108 "
+               id="polygon1011"
+               transform="matrix(1.0647907,0,0,1.1218382,-125.61698,74.994135)"
+               style="fill:#ffffff;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path
+     id="path5157"
+     class="st2"
+     d="m 29.08209,76.991837 -0.02677,-10.00591 c 0,0 8.459836,2.90074 13.25196,4.39999 l 0.08031,-43.739129 h 6.826761 v 55.961329 z"
+     style="opacity:1;fill:#032354;fill-opacity:1;stroke-width:0.29539;enable-background:new" />
+  <path
+     style="fill:#032381;fill-opacity:1;stroke:none;stroke-width:0.339827px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 55.566381,83.201927 -0.12714,-9.83005 12.71492,-4.30065 0.17801,-8.01925 -12.6132,2.74853 -0.27973,-36.021975 20.8779,-0.129341 -0.55946,9.894725 -13.83384,0.06467 v 14.486391 l 12.96922,-1.84313 -1.75464,27.12965 -17.57204,5.82043"
+     id="path1090" />
+</svg>
