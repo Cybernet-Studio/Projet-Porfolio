@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* page para général */
     html {scroll-behavior: smooth;}
     body{background-color: rgb(27, 25, 25);}
@@ -102,56 +101,6 @@
 /* section comptences */
 .sct-competences{
     padding-bottom: 60px;
-=======
-body{background-color: rgb(27, 25, 25);}
-/* header */
-header .container-fluid{
-    width: 100%;height: 60px;
-    background: rgba(179, 171, 171, 0.342);
-}
-.boxMenu{
-   margin: 15px 50px;
-}
-.boxMenu input{
-    margin: 0;
-    font-size: 20px;color: white;
-    background: none; border: none;
-}
-.boxLink{
-    margin: 12px;
-}
-#logoLinkendid{
-    width: 35px;
-    display:inline;fill:#ffffff;fill-opacity:1"
-}
-#logoGithub{
-    width:40px;fill:#ffffff;fill-opacity:1"
-}
-/* section présentation */
-.sct-presentation{
-    height: 750px;
-}
-.sct-presentation img{
-    width: 300px; margin: 11%;
-}
-.sct-presentation h1{
-    color: white; font-size: 50px;
-}
-/* section a propos de moi*/
-.sct-aPropo h2{
-    color: white; font-size: 35px;
-}
-.presentationBox{
-    background: white;
-    width: 100%;height: 500px; 
-}
-/* section projets */
-.sct-projets h2{
-    color: white; font-size: 35px;
-}
-/* section comptences */
-.sct-competences{
->>>>>>> 418564bfe96b22a0edecfd435db45fc113dbcf13
     background: white;
 }
 .sct-competences h2{
@@ -161,17 +110,12 @@ header .container-fluid{
 .sct-competences h3{
     margin-bottom: 30px;
 }
-<<<<<<< HEAD
 #logoJs, #logoJava, #logoHtml, #logoCss, #logoBootsp, #logoLrvl, #logoWordpress, #logoVsc, #logoVp, #logoFgma, #logoVueJs{
-=======
-#logoJs, #logoJava, #logoHtml, #logoCss, #logoBootsp, #logoLrvl, #logoWordpress, #logoVsc, #logoVp{
->>>>>>> 418564bfe96b22a0edecfd435db45fc113dbcf13
     width: 90px;
 }
 #logoPhp, #logoMsql{
     height: 75px;
 }
-<<<<<<< HEAD
 .logoSpanLine{
     margin: 20px 0 50px 0;
 }
@@ -252,9 +196,4 @@ header .container-fluid{
     .devWeb{
         width: 100vh;
     }
-=======
-/* section contact */
-.sct-contact h2{
-    color: white; font-size: 35px;
->>>>>>> 418564bfe96b22a0edecfd435db45fc113dbcf13
 }
