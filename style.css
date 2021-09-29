@@ -17,14 +17,22 @@
         background: rgba(82, 82, 99, 0.534); border: none;
     }
     #logoLinkendid{
-        width: 35px;
-        display:inline;fill:#ffffff;fill-opacity:1"
+        width: 30px;
+        display:inline;fill:#ffffff;fill-opacity:1;
     }
     #logoGithub{
-        width:40px;fill:#ffffff;fill-opacity:1"
+        width: 40px;fill:#ffffff;fill-opacity:1;
     }
     .boxLink div div{
         background: rgba(82, 82, 99, 0.534);
+    }
+    .boxLink div div:nth-child(1){
+        padding: 3px 8px 3px 8px;
+        border-radius: 10px;
+    }
+    .boxLink div div:nth-child(2){
+        padding: 5px;
+        border-radius: 50px;
     }
 /* section présentation */
     section:nth-child(1){height: 100vh;}
@@ -35,15 +43,12 @@
 /* section a propos de moi*/
 .sct-aPropo{
     background: white;
-    height: 500px;
+    padding: 30vh 0 30vh 0;
 }
 .sct-aPropo h2{
     color: rgb(0, 0, 0); font-size: 35px;
 }
-.boxPresentation{
-    width: 800px
-}
-.boxPresentation p{
+.sct-aPropo p{
     font-size: 20px;
 }
 
@@ -165,18 +170,30 @@
         transform: rotate(45deg);
     }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+    /* medium */
+@media screen and (min-width: 768px) and (max-width: 991px){
     .sct-presentation img{
         width: 30vh; height: 40vh;
     }
 }
+    /* small */
 @media screen  and (min-width: 576px) and (max-width: 767px){
     .sct-presentation img{
-        width: 30vh; height: 40vh;
+        width: 28vh; height: 38vh;
+    }
+    section:nth-child(1) h1{
+        font-size: 40px;
     }
 }
+    /* xtra small */
 @media screen and (max-width: 575px){
     .sct-presentation img{
         width: 0; height: 0;
+    }
+    section:nth-child(1) h1{
+        font-size: 38px;
+    }
+    .devWeb{
+        width: 100vh;
     }
 }

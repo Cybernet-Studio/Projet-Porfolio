@@ -13,14 +13,14 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="boxMenu d-flex justify-content-evenly align-items-center col-xl-9 col-lg-9 col-md-10 col-sm-10">
+                <div class="boxMenu d-flex justify-content-evenly align-items-center col-xl-9 col-lg-9 col-md-10 col-sm-10 col-12">
                     <a href="#section_Apropo"><input type="button" id="btApropo" class="Apropo" value ="Á PROPOS"></a>
                     <a href="#section_projet"><input type="button" id="btProjet" class="Projet" value ="PROJETS"></a>
                     <a href="#section_competence"><input type="button" id="btCompetence" class="Competence" value ="COMPÉTENCES"></a>
                     <a href="#section_contact"><input type="button" id="btContact" class="Contact" value ="CONTACT"></a>
                 </div>
 
-                <div class="boxLink d-flex justify-content-center align-items-center col-xl-3 col-lg-3 col-md-2 col-sm-2">
+                <div class="boxLink d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-end align-items-center col-xl-3 col-lg-3 col-md-2 col-sm-2 col-12">
                     <div class="d-flex justify-content-around col-xl-10 col-lg-10 col-md-12 col-sm-12">
                         <!-- logo linkendid -->
                         <div class="d-flex justify-content-center align-items-center">
@@ -53,31 +53,40 @@
     <section class="d-flex align-items-center">
         <div class="container-fluid">
             <div class="row">
-                <div class="sct-presentation d-flex  justify-content-evenly align-items-center col-xl-12 col-lg-12 col-md-12 col-sm-12">  
-                    <h1 class="d-flex justify-content-center col-xl-4 col-lg-4 col-md-3">ARTHUR</h1>
-                    <img src="Portrait.png" class="d-flex justify-content-center col-xl-4 col-lg-4 col-md-3" alt="image de mon portrait">
-                    <h1 class="d-flex justify-content-center col-xl-4 col-lg-4 col-md-3">GUICHOT</h1>
+                <div class="sct-presentation d-flex justify-content-evenly align-items-center col-xl-12 col-lg-12 col-md-12 col-sm-12">  
+                    <h1 class="d-flex justify-content-center col-xl-4 col-lg-4 col-md-3 col-sm-3 col-6">ARTHUR</h1>
+                    <img src="Portrait.png" class="d-flex justify-content-center col-xl-4 col-lg-4 col-md-3 col-sm-4" alt="image de mon portrait">
+                    <h1 class="d-flex justify-content-center col-xl-4 col-lg-4 col-md-3 col-sm-3 col-6">GUICHOT</h1>
                 </div>
             </div>
 
             <div class="row">
-                <h1 class="devWeb d-flex justify-content-center col-12">Développeur Web et Web Mobile</h1>   
+                <div class="devWeb d-flex justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="d-flex justify-content-center col-8">
+                        <h1>Développeur Web et Web Mobile</h1>   
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- section a propos de moi -->
-    <section id="section_Apropo" class="sct-aPropo d-flex align-items-center">
+    <section id="section_Apropo">
         <div class="container-fluid">
-            <div class="row d-flex align-items-center">
-                <div class="col-5">
-                    <h2 class="d-flex justify-content-center">À propos de moi :</h2>
-                </div>
-                <div class="boxPresentation">
-                        <p> &nbsp; Je suis développeur et créateur passionné par plusieurs choses.<br><br>
-                            &nbsp; Je suis passionné par la culture du Japon, l'informatique, le dessin, l'intelligeance artificielle, la robotique, l'électronique, le montage de vidéos, les jeux de cartes, de rôles et de plateaux, le cinéma, lire des livres et l'écriture de récits Fantasy et Fantastique.<br><br>
+            <div class="row">
+                <div class="sct-aPropo d-flex align-items-center">
+                    <h2 class="d-flex justify-content-center col-6">À propos de moi :</h2>
+                    <div class="col-6">
+                        <p class="col-11">
+                            &nbsp; Je suis développeur et créateur passionné par plusieurs choses.
+                        </p>
+                        <p class="col-11">
+                            &nbsp; Je suis passionné par la culture du Japon, l'informatique, le dessin, l'intelligeance artificielle, la robotique, l'électronique, le montage de vidéos, les jeux de cartes, de rôles et de plateaux, le cinéma, lire des livres et l'écriture de récits Fantasy et Fantastique.
+                        </p>
+                        <p class="col-11">
                             &nbsp; En ma possession, j'ai un niveau BTS "Conception et Réalisations des Systèmes Automatiques" et trois diplômes dont un BAC Pro et BEP "Maintenance des Équipements Industriels" et un CAP "Menuisier Fabricant".
                         </p>
+                    </div>
                 </div>
             </div>
         </div>
