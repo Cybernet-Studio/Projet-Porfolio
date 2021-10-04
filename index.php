@@ -74,9 +74,9 @@
     <section id="section_Apropo">
         <div class="container-fluid">
             <div class="row">
-                <div class="sct-aPropo d-flex align-items-center">
-                    <h2 class="d-flex justify-content-center col-6">À propos de moi :</h2>
-                    <div class="col-6">
+                <div class="sct-aPropo d-flex align-items-xl-center align-items-lg-center">
+                    <h2 class="d-flex justify-content-center col-xl-6 col-lg-5 col-md-12 col-12">À propos de moi :</h2>
+                    <div class="col-xl-6 col-lg-7 col-md-12 col-12">
                         <p class="col-11">
                             &nbsp; Je suis développeur et créateur passionné par plusieurs choses.
                         </p>
@@ -84,7 +84,7 @@
                             &nbsp; Je suis passionné par la culture du Japon, l'informatique, le dessin, l'intelligeance artificielle, la robotique, l'électronique, le montage de vidéos, les jeux de cartes, de rôles et de plateaux, le cinéma, lire des livres et l'écriture de récits Fantasy et Fantastique.
                         </p>
                         <p class="col-11">
-                            &nbsp; En ma possession, j'ai un niveau BTS "Conception et Réalisations des Systèmes Automatiques" et trois diplômes dont un BAC Pro et BEP "Maintenance des Équipements Industriels" et un CAP "Menuisier Fabricant".
+                            &nbsp; En ma possession, j'ai un niveau BTS "Conception et Réalisation de Systèmes Automatiques" et trois diplômes dont un BAC Pro et BEP "Maintenance des Équipements Industriels" et un CAP "Menuisier Fabricant".
                         </p>
                     </div>
                 </div>
@@ -95,20 +95,20 @@
     <!-- section projets et realisation -->
     <section id="section_projet" class="sct-projets">
         <div class="container-fluid">
-            <h2 class="d-flex justify-content-center col-12">Mes projets et mes réalisations</h2>
+            <div class="row"><h2 class="d-flex justify-content-center col-12">Mes projets et mes réalisations</h2></div>
             
             <!-- block1 projet integration bootstarp -->
             <div class="row">
                 <div class="blockMokup d-flex justify-content-around scol-12">
-                    <div class="d-flex justify-content-center align-items-center col-6">
+                    <div class="d-flex justify-content-center align-items-center col-6 order-1">
                         <div class="d-flex justify-content-center align-items-center">
-                            <input type="image" id="imgMokup_1" class="imgMokup1" value="1" src="mokup/Mokup_projet_bootstarp_redimensionnée.png" alt="mon projet integration bootstarp">
+                            <input type="image" id="imgMokup_1" class="imgMokup1 d-flex justify-content-center" value="1" src="mokup/Mokup_projet_bootstarp_redimensionnée.png" alt="mon projet integration site web avec bootstarp">
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-items-center col-6">
+                    <div class="d-flex justify-content-center align-items-center col-6 order-2">
                         <div class="col-10">
                             <div class="col-12">
-                                <p>Mon premier projet en formation<br><br>J'ai intégré une maquette d'un site web sur figma, en utilisant le framework Bootstarp</p>
+                                <p>Mon premier projet en formation<br><br>J'ai intégré une maquette sur Figma d'un site web en utilisant le framework Bootstarp</p>
                             </div>
                             <div class="visiteWeb">
                                 <a target="_blank" href="https://arthurg.promo-93.codeur.online/Projet_Integration_Bootstarp_MNTN/integration_bootstarp.html" class="d-flex justify-content-start col-12">
@@ -122,87 +122,134 @@
             </div>
 
                 <!-- block2 projet crédit ledonien -->
-                <!-- block3 projet todo-list -->
+            <div class="row">
+                <div class="blockMokup d-flex justify-content-around scol-12">
+                    <div class="d-flex justify-content-center align-items-center col-6 order-2">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <input type="image" id="imgMokup_2" class="imgMokup2 d-flex justify-content-center" value="2" src="mokup/mokup_credit_ledonien.jpg" alt="Mon projet en groupe intégration site web Crédit Lédonien">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end align-items-center col-6 order-1">
+                        <div class="col-10">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <p>Projet en groupe en formation<br><br>Nous avons intégré un site web Crédit Lédonien en groupe de trois.</p>
+                            </div>
+                            <div class="visiteWeb">
+                                <a target="_blank" href="https://arthurg.promo-93.codeur.online/Projet-Integration-Credit-Ledonien/index.php" class="d-flex justify-content-center col-12">
+                                    <div class="arrow"><span class="material-icons">trending_flat</span></div>
+                                    <div><p>Visitez le site web</p></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <!-- block4 draw Chalice -->
+                <!-- block3 projet todo-list -->
+                <div class="row">
+                    <div class="blockMokup d-flex justify-content-around scol-12">
+                        <div class="d-flex justify-content-center align-items-center col-6 order-1">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <input type="image" id="imgMokup_3" class="imgMokup3" value="3" src="mokup/Mokup_Projet_Todolist.png" alt="mon projet Todolist">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center col-6 order-2">
+                            <div class="col-10">
+                                <div class="col-12">
+                                    <p>Autre projet en formation<br><br>J'ai créer une Todolist aux couleurs rétro, avec le local storage</p>
+                                </div>
+                                <div class="visiteWeb">
+                                    <a target="_blank" href="https://arthurg.promo-93.codeur.online/ToDolist/index.html" class="d-flex justify-content-start col-12">
+                                        <div class="arrow"><span class="material-icons">trending_flat</span></div>
+                                        <div><p>Visitez le site web</p></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- block4 projet Comunication API Deezer -->
+
+                <!-- block5 draw Chalice -->
             <div class="row">
                <div class="blockDraw d-flex justify-content-around">
                     <div class="blockTxtDrawing d-flex justify-content-center align-items-center col-6 order-1">
                         <p>Dessin : Le Calice du Monde <br><br>
                             Je me suis inspiré d'un artwortk d'une carte du jeu Yu-Gi-Oh! 
-                            <br><br> Histoire : Le "Calice du Monde" est une des septs reliques de l'héritage du monde appartenant à un dieu vennu sur terre il y-a des milénaires
+                            <br><br> Histoire : Le "Calice du Monde" est une des septs reliques de l'héritage du monde appartenant à un dieu vennu sur terre il y-a des milénaires.
                         </p>
                     </div>
                     <div class="BlockDrawVertical d-flex justify-content-center col-6 order-2">
-                        <input type="image" id="imgDraw_1" value="4" src="drawing/relicWorldChalice.png" alt="dessin Calice du Monde">
+                        <input type="image" id="imgDraw_1" value="5" src="drawing/relicWorldChalice.png" alt="dessin Calice du Monde">
                     </div>
                 </div>
             </div>
 
-            <!-- block5 draw Fox-->
+            <!-- block6 draw Fox-->
             <div class="row">
                <div class="blockDraw d-flex justify-content-around">
                     <div class="blockTxtDrawing d-flex justify-content-center align-items-center col-6 order-2">
-                        <p>Dessin d'un animal fantasy mangas, que j'ai réalisé pour mon examen d'art appliqué du Bac Pro
-                            <br><br> Histoire : Un renard de lumière aux ailes de nuit du nom de Ichigo est un protecteur de la vie humaine
+                        <p>Dessin d'un animal fantasy mangas, que j'ai réalisé pour mon examen d'art appliqué du Bac Pro.
+                            <br><br> Histoire : Un renard de lumière aux ailes de nuit du nom de Ichigo est un protecteur de la vie humaine.
                         </p>
                     </div>
                     <div class="BlockDrawHorizontal d-flex justify-content-center align-items-center col-6 order-1">
-                        <input type="image" id="imgDraw_2" value="5" src="drawing/foxOfLightBlack.png" alt="dessin d'un renard de lumière aux ailes de nuit">
+                        <input type="image" id="imgDraw_2" value="6" src="drawing/foxOfLightBlack.png" alt="dessin d'un renard de lumière aux ailes de nuit">
                     </div>
                 </div>
             </div>
 
-            <!-- block6 draw city inverted-->
+            <!-- block7 draw city inverted-->
             <div class="row">
                <div class="blockDraw d-flex justify-content-around">
                     <div class="blockTxtDrawing d-flex justify-content-center align-items-center col-6 order-1">
                         <p>
                             Dessin : la cité inversée
-                            <br><br>Histoire : La cité Inverted, est une cité à la technologie douteuse. Une experience fatale est arrivée, changeant la gravité et tout ce quui l'entour, à créer une nouvelleville au sens inversé.
+                            <br><br>Histoire : La cité Inverted, est une cité à la technologie douteuse. Une experience fatale a mal tournée, changeant la gravité et tout ce qui l'entour. Une nouvelle ville au sens inversé a été créer.
                         </p>
                     </div>
                     <div class="BlockDrawHorizontal  d-flex justify-content-center align-items-center col-6 order-2">
-                        <input type="image" id="imgDraw_3" value="6" src="drawing/cityInverted.png" alt="dessin ka cité inversé">
+                        <input type="image" id="imgDraw_3" value="7" src="drawing/cityInverted.png" alt="dessin ka cité inversé">
                     </div>
                 </div>
             </div>
 
-            <!-- block7 draw haloween -->
+            <!-- block8 draw haloween -->
             <div class="row">
                <div class="blockDraw d-flex justify-content-around">
                     <div class="blockTxtDrawing d-flex justify-content-center align-items-center col-6 order-2">
                         <p>
-                            Dessin mangas, je me suis inspiré de quelques artwork de cartes Yu-Gi-Oh!
-                            <br><br> Histoire : Le fantôme d'un enfant mort le soir d'haloween, passe dans les cimetières pour faire peur aux personnes qui le croisaient
+                            Dessin de manga, je me suis inspiré de quelques artwork de cartes Yu-Gi-Oh!
+                            <br><br> Histoire : Le fantôme d'un enfant mort le soir d'haloween, passe dans les cimetières pour faire peur aux personnes qui le croisèrent.
                         </p>
                     </div>
                     <div class="BlockDrawVertical  d-flex justify-content-center col-6 order-1">
-                        <input type="image" id="imgDraw_4" value="7" src="drawing/haloween.png" alt="dessin haloween">
+                        <input type="image" id="imgDraw_4" value="8" src="drawing/haloween.png" alt="dessin haloween">
                     </div>
                 </div>
             </div>
 
-             <!-- block8 draw cité imaginaire 3D-->
+             <!-- block9 draw cité imaginaire 3D-->
              <div class="row">
                <div class="blockDraw d-flex justify-content-around">
                     <div class="blockTxtDrawing d-flex justify-content-center align-items-center col-6 order-1">
-                        <p>Dessin d'une ville imaginaire en 3D</p>
+                        <p>Dessin en perspective, d'une ville imaginaire en 3D</p>
                     </div>
                     <div class="BlockDrawVertical  d-flex justify-content-center col-6 order-2">
-                        <input type="image" id="imgDraw_5" value="8" src="drawing/oeil3D.png" alt="dessin cité imginaire en 3D">
+                        <input type="image" id="imgDraw_5" value="9" src="drawing/oeil3D.png" alt="dessin cité imginaire en 3D">
                     </div>
                 </div>
             </div>
 
-             <!-- block9 draw Numéro66-->
+             <!-- block10 draw Numéro66-->
              <div class="row">
                <div class="blockDraw d-flex justify-content-around">
                     <div class="blockTxtDrawing d-flex justify-content-center align-items-center col-6 order-2">
-                        <p>Dessin réaliser au collége, du personnage "Numéro 66" du manga Fullmetal Alchemist</p>
+                        <p>Dessin de manga réaliser au collége, du personnage "Numéro 66" du manga Fullmetal Alchemist</p>
                     </div>
                     <div class="BlockDrawVertical  d-flex justify-content-center col-6 order-1">
-                        <input type="image" id="imgDraw_6" value="9" src="drawing/number66.png" alt="dessin personnage en armure du manga Fullmetal Achemiste">
+                        <input type="image" id="imgDraw_6" value="10" src="drawing/number66.png" alt="dessin personnage en armure du manga Fullmetal Achemiste">
                     </div>
                 </div>
             </div>

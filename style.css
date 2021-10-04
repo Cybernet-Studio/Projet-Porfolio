@@ -1,7 +1,6 @@
 /* page para général */
     html {scroll-behavior: smooth;}
     body{background-color: rgb(27, 25, 25);}
-
 /* header */
     header{
         width: 100%; height: 60px;
@@ -16,52 +15,27 @@
         border-radius: 8px;
         background: rgba(82, 82, 99, 0.534); border: none;
     }
-    #logoLinkendid{
-        width: 30px;
-        display:inline;fill:#ffffff;fill-opacity:1;
-    }
-    #logoGithub{
-        width: 40px;fill:#ffffff;fill-opacity:1;
-    }
-    .boxLink div div{
-        background: rgba(82, 82, 99, 0.534);
-    }
-    .boxLink div div:nth-child(1){
-        padding: 3px 8px 3px 8px;
-        border-radius: 10px;
-    }
-    .boxLink div div:nth-child(2){
-        padding: 5px;
-        border-radius: 50px;
-    }
+    #logoLinkendid{width: 30px; display:inline; fill:#ffffff; fill-opacity:1;}
+    #logoGithub{width: 40px;fill:#ffffff;fill-opacity:1;}
+    .boxLink div div{background: rgba(82, 82, 99, 0.534);}
+    .boxLink div div:nth-child(1){padding: 3px 8px 3px 8px; border-radius: 10px;}
+    .boxLink div div:nth-child(2){padding: 5px; border-radius: 50px;}
 /* section présentation */
     section:nth-child(1){height: 100vh;}
     .sct-presentation img{width: 37vh; height: 50vh;}
     .sct-presentation h1, .devWeb{color: white; font-size: 50px;}
     section .row:nth-child(1){margin-bottom: 7vh;}
-
 /* section a propos de moi*/
-.sct-aPropo{
-    background: white;
-    padding: 30vh 0 30vh 0;
-}
-.sct-aPropo h2{
-    color: rgb(0, 0, 0); font-size: 35px;
-}
-.sct-aPropo p{
-    font-size: 20px;
-}
-
+    .sct-aPropo{background: white; padding: 18vh 0 18vh 0;}
+    .sct-aPropo h2{font-size: 35px;}
+    .sct-aPropo p{font-size: 21px;}
+    .sct-aPropo p:nth-child(2){margin: 8vh 0 8vh 0;}
 /* section projets */
 
     /* block projet */
-.sct-projets h2{
-    color: white; font-size: 35px;
-    margin: 50px 0 50px
-}
-.blockMokup{
-    margin-bottom: 50px;
-}
+.sct-projets h2{color: white; font-size:35px; margin:30px 0 50px}
+.blockMokup{margin-bottom:50px; height:50vh;}
+.blockMokup input{height: 45vh;}
 .sct-projets p{
     color: white; font-size: 25px;
     width: 500px;
@@ -169,31 +143,44 @@
         top: 15%;
         transform: rotate(45deg);
     }
+    /* large */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .sct-aPropo p{font-size: 18px;}
+    .sct-aPropo h2{font-size: 30px;}
+    .sct-aPropo p:nth-child(2){margin: 6vh 0 6vh 0;}
 
+    .sct-projets h2{font-size: 30px;}
+}
     /* medium */
 @media screen and (min-width: 768px) and (max-width: 991px){
-    .sct-presentation img{
-        width: 30vh; height: 40vh;
-    }
+    .sct-presentation img{width: 30vh; height: 40vh;}
+
+    .sct-aPropo p{font-size: 18px;}
+    .sct-aPropo h2{font-size: 30px;}
+    .sct-aPropo p:nth-child(2){margin: 6vh 0 6vh 0;}
+
+    .sct-projets h2{font-size: 30px;}
 }
     /* small */
 @media screen  and (min-width: 576px) and (max-width: 767px){
-    .sct-presentation img{
-        width: 28vh; height: 38vh;
-    }
-    section:nth-child(1) h1{
-        font-size: 40px;
-    }
+    .sct-presentation img{width: 28vh; height: 38vh;}
+    section:nth-child(1) h1{font-size: 40px;}
+
+    .sct-aPropo p{font-size: 18px;}
+    .sct-aPropo h2{font-size: 30px;}
+    .sct-aPropo p:nth-child(2){margin: 6vh 0 6vh 0;}
+
+    .sct-projets h2{font-size: 30px;}
 }
     /* xtra small */
 @media screen and (max-width: 575px){
-    .sct-presentation img{
-        width: 0; height: 0;
-    }
-    section:nth-child(1) h1{
-        font-size: 38px;
-    }
-    .devWeb{
-        width: 100vh;
-    }
+    .sct-presentation img{width: 0; height: 0;}
+    section:nth-child(1) h1{font-size: 38px;}
+    .devWeb{width: 100vh;}
+
+    .sct-aPropo p{font-size: 18px;}
+    .sct-aPropo h2{font-size: 30px;}
+    .sct-aPropo p:nth-child(2){margin: 6vh 0 6vh 0;}
+
+    .sct-projets h2{font-size: 30px;}
 }
