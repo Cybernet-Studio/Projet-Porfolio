@@ -89,7 +89,11 @@
             <div class="row">
                 <div class="sct-aPropo d-flex align-items-xl-center align-items-lg-center">
                     <h2 class="d-flex justify-content-center col-xl-6 col-lg-5 col-md-12 col-12">À propos de moi :</h2>
-                    <div class="col-xl-6 col-lg-7 col-md-12 col-12">
+                    <div class="animation col-xl-6 col-lg-7 col-md-12 col-12">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                         <p class="col-11">
                             &nbsp; Je suis développeur et créateur passionné par plusieurs choses.
                         </p>
@@ -123,10 +127,19 @@
                             <div class="col-12">
                                 <p>Un des premier projets en formation<br><br>J'ai intégré une maquette sur Figma d'un site web en utilisant le framework Bootstarp</p>
                             </div>
+                            <div class="col-12">
+                                <p class="txtSmall">Technologies utilisées : <span class="txtItalic">Bootstarp, HTML, CSS</span></p>
+                            </div>
                             <div class="visiteWeb">
                                 <a target="_blank" href="https://arthurg.promo-93.codeur.online/Projet_Integration_Bootstarp_MNTN/integration_bootstarp.html" class="d-flex justify-content-start col-12">
                                     <div class="arrow"><span class="material-icons">trending_flat</span></div>
                                     <div><p>Visitez le site web</p></div>
+                                </a>
+                            </div>
+                            <div class="visiteWeb">
+                                <a target="_blank" href="https://github.com/Cybernet-Studio/Projet_Integratio_Web_MNTN" class="d-flex justify-content-start col-12">
+                                    <div class="arrow"><span class="material-icons">trending_flat</span></div>
+                                    <div><p>Repositories Github</p></div>
                                 </a>
                             </div>
                         </div>
@@ -147,10 +160,19 @@
                             <div class="d-flex justify-content-center align-items-center">
                                 <p>Projet en groupe en formation<br><br>Nous avons intégré un site web Crédit Lédonien en groupe de trois.</p>
                             </div>
+                            <div class="col-10">
+                                <p class="txtSmall">Technologies utilisées :<span class="txtItalic"> Javascript, PHP, HTML, CSS</span></p>
+                            </div>
                             <div class="visiteWeb">
                                 <a target="_blank" href="https://arthurg.promo-93.codeur.online/Projet-Integration-Credit-Ledonien/index.php" class="d-flex justify-content-center col-12">
                                     <div class="arrow"><span class="material-icons">trending_flat</span></div>
                                     <div><p>Visitez le site web</p></div>
+                                </a>
+                            </div>
+                            <div class="visiteWeb">
+                                <a target="_blank" href="https://github.com/Cybernet-Studio/Projet-Integration-Credit-Ledonien/tree/integrationMixe" class="d-flex justify-content-start col-12">
+                                    <div class="arrow"><span class="material-icons">trending_flat</span></div>
+                                    <div><p>Repositories Github</p></div>
                                 </a>
                             </div>
                         </div>
@@ -169,7 +191,10 @@
                         <div class="d-flex justify-content-center align-items-center col-6 order-2">
                             <div class="col-10">
                                 <div class="col-12">
-                                    <p>Autre projet en formation<br><br>J'ai créé une Todolist aux couleurs rétro, avec le local storage</p>
+                                    <p>Autre projet en formation<br><br>J'ai créé une Todolist aux couleurs rétro, avec une sauvegarde en local</p>
+                                </div>
+                                <div class="col-112">
+                                    <p class="txtSmall">Technologies utilisées :<span class="txtItalic"> lOCAL Storage, Javascript, PHP, HTML, CSS</span></p>
                                 </div>
                                 <div class="visiteWeb">
                                     <a target="_blank" href="https://arthurg.promo-93.codeur.online/Projet_ToDolist/index.html" class="d-flex justify-content-start col-12">
@@ -177,6 +202,12 @@
                                         <div><p>Visitez le site web</p></div>
                                     </a>
                                 </div>
+                                <div class="visiteWeb">
+                                <a target="_blank" href="https://github.com/Cybernet-Studio/Projet-toDolist" class="d-flex justify-content-start col-12">
+                                    <div class="arrow"><span class="material-icons">trending_flat</span></div>
+                                    <div><p>Repositories Github</p></div>
+                                </a>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -304,10 +335,20 @@
                         <div class="framework">
                             <h3 class="d-flex justify-content-center col-12">Frameworks :</h3>
                             <div class="d-flex justify-content-center">
-                                <div class="d-flex justify-content-around col-8">
-                                    <img src="logo/logo-Fw-bootstarp.svg" id="logoBootsp" title="Bootsarp" alt="Logo Bootstarp">
-                                    <img src="logo/logo-Fw-vueJs.svg" id="logoVueJs" title="Vue Js" alt="Logo Vue.js">
-                                    <img src="logo/logo-Fw-laravel.svg" id="logoLrvl" title="Laravel" alt="Logo Laravel">
+                                <div class="col-10">
+                                    <div class="logoSpanLine d-flex justify-content-center">
+                                        <div class="d-flex justify-content-around col-7">
+                                            <img src="logo/logo-Fw-react.svg" id="logoReact" title="React" alt="Logo React">
+                                            <img src="logo/logo-Fw-vueJs.svg" id="logoVueJs" title="Vue Js" alt="Logo Vue Js">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex justify-content-around col-7">
+                                            <img src="logo/logo-Fw-bootstarp.svg" id="logoBootstarp" title="Bootstarp" alt="Logo Bootstarp">
+                                            <img src="logo/logo-Fw-laravel.svg" id="logoLaravel" title="Laravel" alt="Logo Laravel">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +356,6 @@
                         <div class="logiciel">
                             <h3 class="d-flex justify-content-center col-12">Logiciels :</h3>
                             <div class="d-flex justify-content-center">
-
                                 <div class="col-10">
                                     <div class="logoSpanLine d-flex justify-content-center">
                                         <div class="d-flex justify-content-around col-7">
@@ -323,6 +363,7 @@
                                             <img src="logo/logo-Lg-worpress.svg" id="logoWordpress" title="WordPress" alt="Logo Wordpress">
                                         </div>
                                     </div>
+
                                     <div class="d-flex justify-content-center">
                                         <div class="d-flex justify-content-around col-7">
                                             <img src="logo/logo-Lg-figma.svg" id="logoFgma" title="Figma" alt="Logo Figma">

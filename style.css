@@ -32,6 +32,68 @@
     .sct-aPropo h2{font-size: 35px;}
     .sct-aPropo p{font-size: 21px;}
     .sct-aPropo p:nth-child(2){margin: 8vh 0 8vh 0;}
+    .animation{
+        position: relative;
+        background: rgb(46, 40, 40);
+        padding: 4%;
+        transition: 0.5s;
+        color: white;
+        overflow: hidden;
+    }
+    .animation:hover{
+        background: rgb(0, 255, 255);
+        color: black;
+        box-shadow: 0 0 5px rgb(0, 255, 255),
+        0 0 25px rgb(0, 255, 255),
+        0 0 50px rgb(0, 255, 255),
+        0 0 200px rgb(0, 255, 255);
+    }
+    .animation span{position: absolute; display: block;}
+    .animation span:nth-child(1){
+        top: 0; left: -100%; 
+        width: 100%; height: 5px;
+        background: linear-gradient(90deg, transparent,rgb(0, 255, 255));
+        animation: animate1 2s linear infinite;
+        animation-delay: 0s;
+    }
+    @keyframes animate1 {
+        0%{ left:-100% }
+        50%,100%{ left: 100%; }
+    }
+    .animation span:nth-child(2){
+        top: -100%; right: 0; 
+        width: 5px; height: 100%;
+        background: linear-gradient(180deg, transparent,rgb(0, 255, 255));
+        animation: animate2 2s linear infinite;
+        animation-delay: 0.5s;
+    }
+    @keyframes animate2 {
+        0%{ top:-100% }
+        50%,100%{ top: 100%; }
+    }
+    .animation span:nth-child(3){
+        bottom: 0; right: -100%; 
+        width: 100%; height: 5px;
+        background: linear-gradient(270deg, transparent,rgb(0, 255, 255));
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate3 {
+        0%{ right:-100% }
+        50%,100%{  right: 100%; }
+    }
+    .animation span:nth-child(4){
+        bottom: -100%; left: 0; 
+        width: 5px; height: 100%;
+        background: linear-gradient(360deg, transparent,rgb(0, 255, 255));
+        animation: animate4 2s linear infinite;
+        animation-delay: 1.5s;
+    }
+    @keyframes animate4 {
+        0%{ bottom:-100%
+        }
+        50%,100%{ bottom: 100%; }
+    }
 /* section projets */
 
     /* block projet */
@@ -53,7 +115,8 @@
 .sct-projets a{
     text-decoration: none;
 }.visiteWeb p:hover {color: rgb(161, 135, 152);}
-
+#section_projet .txtSmall{font-size: 20px;}
+#section_projet .txtItalic{font-style: italic;}
     /* block dessin */
 .blockDraw{
     margin-bottom: 80px;
@@ -86,7 +149,7 @@
 .sct-competences h3{
     margin-bottom: 30px;
 }
-#logoJs, #logoJava, #logoHtml, #logoCss, #logoBootsp, #logoLrvl, #logoWordpress, #logoVsc, #logoVp, #logoFgma, #logoVueJs{
+#logoJs, #logoJava, #logoHtml, #logoCss, #logoBootstarp, #logoLaravel, #logoWordpress, #logoVsc, #logoVp, #logoFgma, #logoVueJs, #logoReact{
     width: 90px;
 }
 #logoPhp, #logoMsql{
