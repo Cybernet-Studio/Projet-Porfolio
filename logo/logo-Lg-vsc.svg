@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="193.19949"
+   height="183.54704"
+   viewBox="0 0 193.19949 183.54704"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg6"
+   sodipodi:docname="logo VSCode.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.1914063"
+     inkscape:cx="129.67869"
+     inkscape:cy="143.94754"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <ellipse
+     style="fill:#032354;fill-opacity:1;stroke-width:0.406709"
+     id="path31"
+     cx="96.599747"
+     cy="91.773521"
+     rx="96.599747"
+     ry="91.773521" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967494px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 126.60649,158.43327 161.8238,144.42679 V 37.766256 L 126.60842,23.75978 67.806487,78.167403 32.404564,53.211 17.814179,57.77242 53.831487,91.099222 17.814179,124.42424 l 14.590385,4.56321 35.403847,-24.9582 z"
+     id="path879" />
+  <path
+     style="fill:#032354;fill-opacity:1;stroke:none;stroke-width:1.12199px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 128.45602,128.40038 V 54.321382 l -41.883706,37.03951 z"
+     id="path881" />
+</svg>

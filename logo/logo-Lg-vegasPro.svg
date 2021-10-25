@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="193.06645mm"
+   height="183.95604mm"
+   viewBox="0 0 193.06645 183.95604"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo Vegas Pro.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.54342031"
+     inkscape:cx="100.29069"
+     inkscape:cy="-94.770105"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath893">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 201.98645,240.99179 V 57.03575 H 8.9199934 V 240.99179 H 201.98645"
+         id="path895" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     clip-path="url(#clipPath893)"
+     transform="translate(-8.9199934,-57.035751)">
+    <rect
+       style="fill:#032381;fill-opacity:1;stroke-width:0.264583"
+       id="rect1042"
+       width="193.06645"
+       height="183.95604"
+       x="8.9199934"
+       y="57.035751" />
+    <rect
+       style="fill:#032354;fill-opacity:1;stroke-width:0.346178"
+       id="rect1168"
+       width="178.77095"
+       height="170.24487"
+       x="16.558529"
+       y="63.466503" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.207927,99.557343 16.01947,-0.0234 30.893023,79.933617 3.55468,10.82775 3.5079,-10.61728 32.21468,-80.116697 15.10035,-0.0775 -43.31151,102.400557 -15.14477,0.0413 z"
+       id="path2840" />
+  </g>
+</svg>
